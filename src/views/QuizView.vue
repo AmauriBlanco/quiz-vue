@@ -51,6 +51,7 @@ const showResults = ref(false);
             />
 
             <Result
+                v-else
                 :quizQuestionLength="quiz.questions.length"
                 :numberOfCorrectAnswers="numberOfCorrectAnswers"
             />
