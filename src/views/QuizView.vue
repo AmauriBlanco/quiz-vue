@@ -49,10 +49,10 @@ const showResults = ref(false);
                 @selectOption="onOptionSelected"
                 :question="quiz.questions[currentQuestionIndex]"
             />
+
             <Result
                 :quizQuestionLength="quiz.questions.length"
                 :numberOfCorrectAnswers="numberOfCorrectAnswers"
-                v-else
             />
         </section>
     </div>

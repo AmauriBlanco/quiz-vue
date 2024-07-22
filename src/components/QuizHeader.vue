@@ -29,7 +29,7 @@ h1 {
 .bar {
     width: 300px;
     height: 50px;
-    border: solid 3px rgb(245, 237, 191);
+    border: solid 3px rgb(77, 86, 211);
     background: rgb(126, 126, 126);
 }
 
